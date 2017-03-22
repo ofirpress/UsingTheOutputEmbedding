@@ -6,4 +6,4 @@ Notice that the number of units in each LSTM layer was changed to 1500.
 The folder ptb_word_lm implements the weight tying method and projection regularization on the language model from the official [tensorflow tutorials](https://www.tensorflow.org/versions/r0.8/tutorials/recurrent/index.html#language-modeling) . 
 (The full original code is available [here](https://github.com/tensorflow/tensorflow/tree/r0.8/tensorflow/models/rnn/ptb) ). 
 
-For an implementation of **weight tying** and **three way weight tying** in **neural machine translation models**, see [Nematus](https://github.com/rsennrich/nematus). (For decoder weight tying use the flag "--tie_decoder_embeddings", and for three way weight tying use "--tie_encoder_decoder_embeddings").
+For an implementation of **weight tying** and **three way weight tying** in **neural machine translation models**, see [Nematus](https://github.com/rsennrich/nematus). (For decoder weight tying use the flag "--tie_decoder_embeddings", and for three way weight tying also use "--tie_encoder_decoder_embeddings").
