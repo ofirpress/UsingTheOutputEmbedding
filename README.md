@@ -1,4 +1,4 @@
-This is the code for the EACL '17 paper ["Using the Output Embedding to Improve Language Models" by Ofir Press and Lior Wolf](http://arxiv.org/abs/1608.05859).
+This is the code for the EACL '17 paper ["Using the Output Embedding to Improve Language Models" by Ofir Press and Lior Wolf](http://aclweb.org/anthology/E/E17/E17-2025.pdf).
 
 The folder BayesianRNN implements the weight tying method (with and without weight decay) over the code of [Yarin Gal's BayesianRNN](https://github.com/yaringal/BayesianRNN/tree/master/LM_code) language model (commit 7b923cc84f48f2dc65113aa012c3b99dfa6abed8 ). 
 Notice that the number of units in each LSTM layer was changed to 1500. 
